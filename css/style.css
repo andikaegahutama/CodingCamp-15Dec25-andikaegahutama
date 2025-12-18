@@ -1,0 +1,441 @@
+@media screen and (min-width: 1000px) {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+  }
+
+  nav {
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav a:hover {
+    color: #2563eb;
+  }
+
+  #navbarList {
+    list-style: none;
+    display: flex;
+  }
+
+  ul li {
+    margin-right: 16px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #heroSection {
+    text-align: center;
+    color: white;
+    padding: 60px;
+    margin-top: 0px;
+    background-image: linear-gradient(#2563eb, #4f46e5);
+  }
+
+  #contactUs {
+    border: none;
+    outline: none;
+    padding: 10px 16px 10px 16px;
+    color: #2563eb;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: gray;
+  }
+
+  #contactUs:hover {
+    color: #ffffff;
+    background-color: #d0d0d0;
+    transition-duration: 600ms;
+    font-size: 14px;
+  }
+
+  #contactUs a {
+    text-decoration: none;
+  }
+
+  #ourProfile {
+    padding: 48px 100px;
+    text-align: justify;
+  }
+
+  #banner {
+    width: 40%;
+  }
+  #wrapperOurProfile {
+    display: flex;
+  }
+
+  #wrapperOurProfile div {
+    margin-right: 10px;
+  }
+
+  #banner {
+    border-radius: 10px;
+  }
+
+  #purpose {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #vision {
+    width: 100%;
+    text-align: center;
+    padding: 0px 12px;
+    color: white;
+    background-image: linear-gradient(#2563eb, #4f46e5);
+    border-radius: 10px;
+    transition: all ease 0.4s;
+  }
+
+  #mission {
+    margin-top: 24px;
+    text-align: center;
+    width: 100%;
+    padding: 0px 12px;
+    color: white;
+    border: 4px solid #2563eb;
+    background-image: linear-gradient(#2563eb, #4f46e5);
+    transition: all ease-in-out 0.3s;
+    border-radius: 10px;
+  }
+
+  #purposeWrapper {
+    list-style-type: none;
+  }
+
+  #vision:hover {
+    background-image: none;
+    border: 4px solid #2563eb;
+    background-color: white;
+    color: #2563eb;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 0px 12px;
+  }
+
+  #mission:hover {
+    background-image: none;
+    background-color: white;
+    color: #2563eb;
+    border: 4px solid #2563eb;
+    border-radius: 10px;
+    padding: 0px 12px;
+  }
+
+  #portofolio {
+    padding: 16px 100px;
+  }
+
+  #portofolio p {
+    text-align: justify;
+  }
+
+  #portofolioWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .portofolioCard {
+    width: 100%;
+    max-width: 360px;
+    padding: 8px;
+  }
+
+  .portofolioCard:hover {
+    text-align: center;
+    scale: calc(1.05);
+    transition: all ease-in-out 0.4s;
+  }
+
+  .portofolioCard img {
+    width: 100%;
+    height: auto;
+    outline: 4px solid #2563eb;
+    border-radius: 8px;
+  }
+
+  .portofolioContent {
+    width: 100%;
+    padding: 12px;
+    outline: 4px solid #2563eb;
+    background-color: #fafafa;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .portofolioContent:hover {
+    width: 100%;
+    outline: 4px solid #2563eb;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    transition: all ease-in-out 0.3s;
+  }
+
+  #messageUs {
+    background-color: #fafafa;
+    padding: 48px 100px;
+  }
+
+  #messageUsContent {
+    background-image: linear-gradient(#2563eb, #4f46e5);
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  footer {
+    text-align: right;
+    background-color: #cacaca;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  nav {
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav a:hover {
+    color: #2563eb;
+  }
+
+  #navbarList {
+    list-style: none;
+    display: flex;
+  }
+
+  ul li {
+    margin-right: 16px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #heroSection {
+    text-align: center;
+    color: white;
+    padding: 60px;
+    margin-top: 0px;
+    background-image: linear-gradient(#2563eb, #4f46e5);
+  }
+
+  #contactUs {
+    border: none;
+    outline: none;
+    padding: 10px 16px 10px 16px;
+    color: #2563eb;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: gray;
+  }
+
+  #contactUs:hover {
+    color: #ffffff;
+    background-color: #d0d0d0;
+    transition-duration: 600ms;
+    font-size: 14px;
+  }
+
+  #contactUs a {
+    text-decoration: none;
+  }
+
+  #ourProfile {
+    padding: 48px 40px;
+    text-align: justify;
+  }
+  #banner {
+    width: 100%;
+  }
+  #wrapperOurProfile {
+  }
+
+  #wrapperOurProfile div {
+    margin-right: 10px;
+  }
+
+  #banner {
+    border-radius: 10px;
+  }
+
+  #purpose {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #vision {
+    width: 100%;
+    text-align: center;
+    padding: 0px 12px;
+    color: white;
+    background-image: linear-gradient(#2563eb, #4f46e5);
+    border-radius: 10px;
+    transition: all ease 0.4s;
+  }
+
+  #mission {
+    width: 100%;
+    margin-top: 24px;
+    text-align: center;
+    padding: 0px 12px;
+    color: white;
+    border: 4px solid #2563eb;
+    background-image: linear-gradient(#2563eb, #4f46e5);
+    transition: all ease 0.4s;
+    border-radius: 10px;
+  }
+
+  .purposeContent {
+    display: block;
+  }
+
+  #vision:hover {
+    background-image: none;
+    border: 4px solid #2563eb;
+    background-color: white;
+    color: #2563eb;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 0px 12px;
+  }
+
+  #mission:hover {
+    background-image: none;
+    background-color: white;
+    color: #2563eb;
+    border: 4px solid #2563eb;
+    border-radius: 10px;
+    padding: 0px 12px;
+  }
+
+  #portofolio {
+    padding: 16px 40px;
+  }
+
+  #portofolio p {
+    text-align: justify;
+  }
+
+  #portofolioWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .portofolioCard {
+    width: 100%;
+    max-width: 360px;
+    padding: 8px;
+  }
+
+  .portofolioCard:hover {
+    text-align: center;
+    scale: calc(1.05);
+    transition: all ease-in-out 0.4s;
+  }
+
+  .portofolioCard img {
+    width: 100%;
+    height: auto;
+    outline: 4px solid #2563eb;
+    border-radius: 8px;
+  }
+
+  .portofolioContent {
+    width: 100%;
+    padding: 12px;
+    outline: 4px solid #2563eb;
+    background-color: #fafafa;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .portofolioContent:hover {
+    width: 100%;
+    outline: 4px solid #2563eb;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    transition: all ease-in-out 0.3s;
+  }
+
+  #messageUs {
+    background-color: #fafafa;
+    padding: 16px 40px;
+  }
+
+  #messageUsContent {
+    background-image: linear-gradient(#2563eb, #4f46e5);
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  footer {
+    text-align: right;
+    background-color: #cacaca;
+    padding: 20px;
+  }
+}
