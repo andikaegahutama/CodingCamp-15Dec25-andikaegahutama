@@ -304,6 +304,7 @@
   }
 
   nav {
+    font-size: 12px;
     padding: 4px;
     display: flex;
     justify-content: space-between;
