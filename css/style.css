@@ -193,9 +193,9 @@
     width: 100%;
     outline: 4px solid #2563eb;
     padding: 12px;
-    background-color: #2563eb;
+    background-image: linear-gradient(#2563eb, #4f46e5);
     color: white;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.2s;
   }
 
   #messageUs {
@@ -209,6 +209,65 @@
     border-radius: 12px;
     padding: 10px;
     text-align: center;
+  }
+
+  #result {
+    margin: 20px auto;
+    max-width: 500px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #resultContent {
+    padding: 16px;
+    line-height: 1.6;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  #formulir {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+  }
+
+  #formulir label {
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  #formulir input,
+  #formulir textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+  }
+
+  #submit {
+    background-color: #ffffff;
+    color: #2563eb;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  #submit:hover {
+    background-color: #1e40af;
+    color: white;
+    scale: calc(1.05);
   }
 
   footer {
@@ -413,7 +472,7 @@
     width: 100%;
     outline: 4px solid #2563eb;
     padding: 12px;
-    background-color: #2563eb;
+    background-image: linear-gradient(#2563eb, #4f46e5);
     color: white;
     transition: all ease-in-out 0.3s;
   }
@@ -429,6 +488,65 @@
     border-radius: 12px;
     padding: 10px;
     text-align: center;
+  }
+
+  #result {
+    margin: 20px auto;
+    max-width: 500px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #resultContent {
+    padding: 16px;
+    line-height: 1.6;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  #formulir {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+  }
+
+  #formulir label {
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  #formulir input,
+  #formulir textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+  }
+
+  #submit {
+    background-color: #ffffff;
+    color: #2563eb;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  #submit:hover {
+    background-color: #1e40af;
+    color: white;
+    scale: calc(1.05);
   }
 
   footer {

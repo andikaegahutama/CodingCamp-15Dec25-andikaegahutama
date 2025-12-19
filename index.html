@@ -126,7 +126,7 @@
         <div id="messageUsContent">
           <h1>Message Us</h1>
           <div id="form">
-            <form action="" method="post">
+            <form action="" method="post" id="formulir">
               <label
                 for="nama"
                 name="
@@ -138,14 +138,17 @@
               <label for="email">Email: </label>
               <input type="email" name="email" id="email" />
               <br />
-              <label for="phone">Nomor Handphone: </label>
+              <label for="phone">Nomor HP: </label>
               <input type="number" name="phone" id="phone" />
               <br />
               <label for="message"> Pesan: </label>
               <textarea name="message" id="message"></textarea>
               <br />
-              <button type="submit">Submit</button>
+              <button type="submit" id="submit">Submit</button>
             </form>
+            <div id="result">
+              <div id="resultContent"></div>
+            </div>
           </div>
         </div>
       </section>
